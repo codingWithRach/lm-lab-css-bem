@@ -12,4 +12,12 @@ html {
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  padding: 2rem;
+  border: 2px solid grey;
+  margin: 1rem;
+  text-align: center;
 }
