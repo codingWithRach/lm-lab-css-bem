@@ -7,3 +7,9 @@ img {
 html {
   font-family: "Poller One", sans-serif;
 }
+
+/* Structure */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
