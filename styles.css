@@ -2,10 +2,6 @@
   --shadow: #c2c2c2;
 }
 
-img {
-  max-width: 200px;
-}
-
 html {
   font-family: "Poller One", sans-serif;
 }
@@ -33,6 +29,13 @@ html {
   border: 0.25rem;
   border-radius: 0.5rem;
   margin: 1rem;
+}
+
+/* Elements */
+.card__img {
+  padding: 0rem;
+  border: 0rem;
+  max-width: 200px;
 }
 
 /* Modifiers */
