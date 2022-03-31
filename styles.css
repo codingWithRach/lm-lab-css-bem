@@ -1,4 +1,6 @@
-/* You can delete / re-write this img class  */
+:root {
+  --shadow: #c2c2c2;
+}
 
 img {
   max-width: 200px;
@@ -16,8 +18,12 @@ html {
 }
 
 .card {
+  display: inline-block;
   padding: 2rem;
-  border: 2px solid grey;
+  border: 0.5rem solid grey;
+  border-radius: 1rem;
   margin: 1rem;
   text-align: center;
+  max-width: 15rem;
+  box-shadow: 0.5rem 0.5rem var(--shadow);
 }
