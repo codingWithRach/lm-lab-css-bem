@@ -27,6 +27,14 @@ html {
   max-width: 15rem;
 }
 
+.button {
+  font-family: "Poller One", sans-serif;
+  padding: 0.5rem 1rem;
+  border: 0.25rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
 /* Modifiers */
 .card--good {
   background-color: silver;
@@ -38,4 +46,20 @@ html {
   background-color: darkslategrey;
   border-color: black;
   box-shadow: 0.5rem 0.5rem grey;
+}
+
+.button--good {
+  background-color: green;
+}
+
+.button--evil {
+  background-color: red;
+}
+
+.button--good:hover {
+  background-color: darkgreen;
+}
+
+.button--evil:hover {
+  background-color: darkred;
 }
